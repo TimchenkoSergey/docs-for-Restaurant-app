@@ -1,0 +1,84 @@
+<h1><code ng:non-bindable="">MealsFactory</code>
+<div><span class="hint">service in module <code ng:non-bindable="">Meals</code>
+</span>
+</div>
+</h1>
+<div><h2 id="description">Description</h2>
+<div class="description"><div class="meals-mealsfactory-page"><p>Factory get currency, array of products and array of drinks,
+and work with current meal.</p>
+</div></div>
+<h2 id="dependencies">Dependencies</h2>
+<ul class="dependencies"><li><code ng:non-bindable=""><a href="api/ng.$http">$http</a></code>
+</li>
+<li><code ng:non-bindable=""><a href="api/ng.$q">$q</a></code>
+</li>
+</ul>
+<div class="member method"><h2 id="methods">Methods</h2>
+<ul class="methods"><li><h3 id="methods_getcurrency">getCurrency()</h3>
+<div class="getcurrency"><div class="meals-mealsfactory-getcurrency-page"><p>Return currency.</p>
+</div><h5 id="methods_getcurrency_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="meals-mealsfactory-getcurrency-page"><p>Currency.</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_getcurrentmeal">getCurrentMeal()</h3>
+<div class="getcurrentmeal"><div class="meals-mealsfactory-getcurrentmeal-page"><p>Return current meal.</p>
+</div><h5 id="methods_getcurrentmeal_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="meals-mealsfactory-getcurrentmeal-page"><p>Current meal.</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_getcurrentmealamount">getCurrentMealAmount()</h3>
+<div class="getcurrentmealamount"><div class="meals-mealsfactory-getcurrentmealamount-page"><p>Return current meal amount.</p>
+</div><h5 id="methods_getcurrentmealamount_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-number">number</a></td><td><div class="meals-mealsfactory-getcurrentmealamount-page"><p>Current meal amount.</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_getcurrentmealstatus">getCurrentMealStatus()</h3>
+<div class="getcurrentmealstatus"><div class="meals-mealsfactory-getcurrentmealstatus-page"><p>Return current meal status(&quot;new&quot; or &quot;edit&quot;).</p>
+</div><h5 id="methods_getcurrentmealstatus_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="meals-mealsfactory-getcurrentmealstatus-page"><p>Current meal status(&quot;new&quot; or &quot;edit&quot;).</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_getmeals">getMeals()</h3>
+<div class="getmeals"><div class="meals-mealsfactory-getmeals-page"><p>Return promise with the response received from the server or
+if the request has already been, return promise with the
+meals object.</p>
+</div><h5 id="methods_getmeals_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="meals-mealsfactory-getmeals-page"><p>Promise.</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_getmealsfromhttp">getMealsFromHttp(deferred)</h3>
+<div class="getmealsfromhttp"><div class="meals-mealsfactory-getmealsfromhttp-page"><p>Obtaining data on foods and drinks from the server.</p>
+</div><h5 id="methods_getmealsfromhttp_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>deferred</td><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="meals-mealsfactory-getmealsfromhttp-page"><p>Deferred object.</p>
+</div></td></tr></tbody></table><h5 id="methods_getmealsfromhttp_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="meals-mealsfactory-getmealsfromhttp-page"><p>Deferred object with resolve and reject.</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_getmodifiers">getModifiers()</h3>
+<div class="getmodifiers"><div class="meals-mealsfactory-getmodifiers-page"><p>If meals have modifiers return them else return false</p>
+</div><h5 id="methods_getmodifiers_returns">Returns</h5><table class="variables-matrix"><tr><td><a href="" class="label type-hint type-hint-object">object|boolean</a></td><td><div class="meals-mealsfactory-getmodifiers-page"><p>Current meal modifiers or false.</p>
+</div></td></tr></table></div>
+</li>
+<li><h3 id="methods_openmeal">openMeal(meal, status, amount)</h3>
+<div class="openmeal"><div class="meals-mealsfactory-openmeal-page"><p>Set current meal, current meal status and current meal amount.</p>
+</div><h5 id="methods_openmeal_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>meal</td><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="meals-mealsfactory-openmeal-page"><p>Current meal.</p>
+</div></td></tr><tr><td>status</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="meals-mealsfactory-openmeal-page"><p>Meal status(&quot;new&quot; or &quot;edit&quot;).</p>
+</div></td></tr><tr><td>amount</td><td><a href="" class="label type-hint type-hint-number">number</a></td><td><div class="meals-mealsfactory-openmeal-page"><p>Meal amount.</p>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_setcurrentmeal">setCurrentMeal(meal)</h3>
+<div class="setcurrentmeal"><div class="meals-mealsfactory-setcurrentmeal-page"><p>Set current meal.</p>
+</div><h5 id="methods_setcurrentmeal_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>meal</td><td><a href="" class="label type-hint type-hint-object">object</a></td><td><div class="meals-mealsfactory-setcurrentmeal-page"><p>Current meal.</p>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_setcurrentmealamount">setCurrentMealAmount(amount)</h3>
+<div class="setcurrentmealamount"><div class="meals-mealsfactory-setcurrentmealamount-page"><p>Set current meal amount.</p>
+</div><h5 id="methods_setcurrentmealamount_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>amount</td><td><a href="" class="label type-hint type-hint-number">number</a></td><td><div class="meals-mealsfactory-setcurrentmealamount-page"><p>Current meal amount.</p>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_setcurrentmealbyid">setCurrentMealById(id)</h3>
+<div class="setcurrentmealbyid"><div class="meals-mealsfactory-setcurrentmealbyid-page"><p>Set current meal by id.</p>
+</div><h5 id="methods_setcurrentmealbyid_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>id</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="meals-mealsfactory-setcurrentmealbyid-page"><p>Id of current meal.</p>
+</div></td></tr></tbody></table></div>
+</li>
+<li><h3 id="methods_setcurrentmealstatus">setCurrentMealStatus(status)</h3>
+<div class="setcurrentmealstatus"><div class="meals-mealsfactory-setcurrentmealstatus-page"><p>Set current meal status(&quot;new&quot; or &quot;edit&quot;).</p>
+</div><h5 id="methods_setcurrentmealstatus_parameters">Parameters</h5><table class="variables-matrix table table-bordered table-striped"><thead><tr><th>Param</th><th>Type</th><th>Details</th></tr></thead><tbody><tr><td>status</td><td><a href="" class="label type-hint type-hint-string">string</a></td><td><div class="meals-mealsfactory-setcurrentmealstatus-page"><p>Current meal status(&quot;new&quot; or &quot;edit&quot;).</p>
+</div></td></tr></tbody></table></div>
+</li>
+</ul>
+</div>
+</div>
