@@ -280,7 +280,7 @@ NG_DOCS={
       "type": "service",
       "moduleName": "Meals",
       "shortDescription": "Factory work with modifiers.",
-      "keywords": "add api array cartfactory checked checkedmodifiers current delete deleted deletemodifier factory false getcheckedmodifiers meal meals method modifier modifierhasbeenselected modifiers modifiersfactory object objects pick pickcheckedmodifiers return selected selectedmodifiers selectmodifier service true work"
+      "keywords": "add api array cartfactory checked checkedmodifiers current delete deleted deletemodifier factory false getcheckedmodifiers meal meals method modifier modifierhasbeenselected modifiers modifiersfactory object objects pick pickcheckedmodifiers picked return selected selectedmodifiers selectmodifier service true work"
     }
   ],
   "apis": {
